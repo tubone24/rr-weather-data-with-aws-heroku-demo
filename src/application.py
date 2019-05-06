@@ -15,6 +15,7 @@ df_timeserias_all = pd.read_csv("result_timeserias_all.csv")
 # df = pd.read_csv("s3://your-bucket/result.csv")
 
 MAPBOX_ACCESS_TOKEN = os.getenv("MAPBOX_ACCESS_TOKEN", "YOUR TOKEN")
+PORT = os.getenv("PORT", "8080")
 # FIXME: input your mapbox token
 # https://docs.mapbox.com/help/how-mapbox-works/access-tokens/
 
@@ -191,4 +192,4 @@ def update_temp_timeseries(hoverData):
 
 
 if __name__ == "__main__":
-    application.run(debug=True, port=8080)
+    application.run(debug=True, port=int(PORT))
