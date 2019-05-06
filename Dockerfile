@@ -30,4 +30,4 @@ RUN pip3 install -r requirements.txt
 ADD assets/result_all.csv /app/rr-weather-data-with-aws/dash_visual/src/
 ADD assets/result_timeserias_all.csv /app/rr-weather-data-with-aws/dash_visual/src/
 ADD assets/result_kanto.csv /app/rr-weather-data-with-aws/dash_visual/src/
-CMD python application.py
+CMD python3 application.py
