@@ -1,1 +1,1 @@
-web: cd src && pip install -r requirements.txt && python application.py
+web: python application.py
