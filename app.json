@@ -1,0 +1,13 @@
+{
+  "name": "rr-weather-data-with-aws-heroku-demo",
+  "description": "Data science with AWS tutorial course creating by tubone.\n\n",
+  "keywords": [
+    "AWS",
+    "Dash",
+    "PlotJS"
+  ],
+  "website": "https://tubone-project24.xyz",
+  "repository": "https://github.com/tubone24/rr-weather-data-with-aws-heroku-demo",
+  "logo": "https://raw.githubusercontent.com/tubone24/rr-weather-data-with-aws/master/docs/images/architect.png",
+  "success_url": "/"
+}
